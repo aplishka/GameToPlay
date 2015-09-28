@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	div.container
+	div.jumbotron
+		h1 Hello!
+
+		p Welcome to my app, ready to get started?
+		p
+			a.btn.btn-primary(onclick="get_steam_app()") Get me a game!
+
+	script(src="../js/pg-get.js")
